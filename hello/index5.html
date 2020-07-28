@@ -1,0 +1,75 @@
+<!-- 주석문을 넣을 수 있다.-->
+<!-- 이 문서는 HTML5 규격의 Hyper Text 문서다-->
+<!DOCTYPE html>
+<html lang = "ko">
+
+    <!-- head tag에 작성되는 내용은 사용자에게 보여지지 않고
+    문서의 특성들을 지정하는 여러가지 설정값을 포함한다
+ -->
+    <head>
+        <title>나의 홈페이지 </title>
+        <!-- 문자 Encoding 설정-->
+        <meta charset = "UTF-8">
+
+        <!-- 화면에 보여지는 scale 조정-->
+        <meta name = "viewport"  content='width=device-width, initial-scale=1'>
+
+    </head>
+    <body>
+        <!-- h : headLine, 제목을 표시하는 방법
+            1 ~ 6 까지 숫자 : 숫자가 클수록 작은 글자
+            6을 이탈하면 크기가 랜덤?임
+        -->
+        <h1> 나의 홈페이지 </h1>
+        <h2> 나의 홈페이지 </h2>
+        <h3> 나의 홈페이지 </h3>
+        <h4> 나의 홈페이지 </h4>
+        <h5> 나의 홈페이지 </h5>
+        <h6> 나의 홈페이지 </h6>
+        <h7> 나의 홈페이지 </h7>
+
+        <p> 우리는 오늘 HTML5를 사용하여 웹페이지를 만들고 있다 <br />
+        우리가 만드는 웹페이지는 다양한 웹브라우저에서 정상으로 보여지기를
+        기대한다</p>
+        <p> 우리나라 만세 </p>
+        <p> 대한민국 만세 </p>
+        <!-- a(anchor)= 닻 tag, 링크라고 하며 문자열을 마우스로 클릭했을때
+        서버에 요청(Request)을 보내라
+     -->
+        <p> <a href = "https://naver.com" target = "_nen"> 네이버 바로가기 </a></p>
+        <p> <a href = "sub/index6.html"> sub 의 index6 바로가기</a></p>
+        <p><img src = "다운로드.png" alt = "2020 이미지" width = "100px" height =""></p>
+        <p> <img src = "https://t1.daumcdn.net/cfile/tistory/99748D485E3AE46932" width ="100px"></p>
+        <p>
+            <!-- a tag의 href:Hyper Text Reference -->
+            <a href = "https://daum.net">
+            <img src = "다운로드.png" alt = "2020 이미지" width = "100px"> </a>  </p>
+            <p>
+                <!-- vsCode에서 Ctrl + ALt + Shift 방향키
+                블럭 다중선택-->
+                <ul>
+                    <li>ul : unOrder List, 순서가 없는 리스트</li>
+                    <li>머리슥ㄹ이 기호로 표시되는 리스트</li>
+                    <li>머릿글 기호는 필요에 따라 바꿀 수 있다</li>
+                </ul>
+            </p>
+
+                <p>
+                    <ol>
+                        <li>ol : Order List, 순서값이 있는 리스트</li>
+                        <li>머릿글이 순번이 매겨진 리스트</li>
+                        <li>기본값은 숫자 리스트, 가나다 , ABC등으로 바꿀 수 있다</li>
+                    </ol>
+            </p>
+
+
+            <p>
+                <ul>
+                    <li><img src = "다운로드.png" alt = "2020 " width = "50px"></li>
+                    <li><img src = "다운로드.png" alt = "2020 이미지" width  = "50px"></li>
+                    <li><img src = "다운로드.png" alt = "2020 이미지다" width  = "50px"></li>
+                </ul> 
+        </p>
+
+    </body>
+</html>
